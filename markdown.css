@@ -1,0 +1,43 @@
+.hljs {
+    display: block;
+    overflow-x: auto;
+    color: #252523;
+    padding: 0.5em;
+    border: 1px solid #aaa;
+    background-color: #efefef;
+    border-radius: 10px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+blockquote {
+    padding-left: 1em;
+    margin: 1em 1em;
+    border-left: 4px solid #aaaaff;
+    background-color: #f7f7f7;
+    word-break: break-word;
+    color:#2f2f2f;
+    line-height:2em;
+}
+
+
+table
+    {
+    border-collapse: collapse;
+    border-bottom: 2pt solid #000;
+    border-top: 2pt solid #000; /* The caption on top will not have a bottom-border */
+    margin-left: 1em;
+    }
+    
+thead /* Entire table header */
+    {
+    border-bottom: 1pt solid #000;
+    background-color: #eee; /* Does this BG print well? */
+    }
+
+th /* Table header cells */
+    {
+    font-weight: bold; 
+    }
+
