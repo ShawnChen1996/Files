@@ -19,7 +19,6 @@ class randomFilePicker(pathFlattener):
 
     def pick(self, num=1):
         self.picked = random.sample(self.files, num)
-        return self.picked
 
     def rmPicked(self):
         for f in self.picked:
@@ -34,7 +33,8 @@ class randomFilePicker(pathFlattener):
 
 
 c = randomFilePicker()
-c.pick()
+x = c.pick()
+print(x)
 
 
 
