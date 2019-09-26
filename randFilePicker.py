@@ -33,7 +33,7 @@ class randomFilePicker(pathFlattener):
 
 
 
-c = randomFilePicker('test')
+c = randomFilePicker()
 print(c.files)
 c.pick()
 
