@@ -36,6 +36,6 @@ class randomFilePicker(pathFlattener):
 c = randomFilePicker('test')
 print(c.files)
 c.pick()
-c.picked
-c.hidePicked()
+
+
 
