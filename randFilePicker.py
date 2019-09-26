@@ -34,7 +34,6 @@ class randomFilePicker(pathFlattener):
 
 
 c = randomFilePicker()
-print(c.files)
 c.pick()
 
 
